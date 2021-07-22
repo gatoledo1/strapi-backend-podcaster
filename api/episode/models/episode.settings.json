@@ -16,12 +16,6 @@
       "type": "string",
       "pluginOptions": {}
     },
-    "slug": {
-      "type": "string",
-      "pluginOptions": {},
-      "unique": false,
-      "required": false
-    },
     "members": {
       "type": "string",
       "pluginOptions": {}
@@ -37,6 +31,10 @@
     "file": {
       "type": "json",
       "pluginOptions": {}
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
